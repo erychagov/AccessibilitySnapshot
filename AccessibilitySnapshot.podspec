@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
     ss.source_files = 'Sources/AccessibilitySnapshot/SnapshotTesting/**/*.{swift,h,m}'
 
     ss.dependency 'AccessibilitySnapshot/Core'
-    ss.dependency 'SnapshotTesting', '~> 1.0'
+    ss.dependency 'SnapshotTesting', '~> 1.18.6'
     ss.frameworks = 'XCTest'
     ss.weak_frameworks = 'XCTest'
   end
